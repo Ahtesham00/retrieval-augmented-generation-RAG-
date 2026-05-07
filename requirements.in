@@ -1,0 +1,45 @@
+# Web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+motor
+pymongo
+
+# Cache
+redis[hiredis]
+
+# Vector store
+pinecone
+
+# LlamaIndex core + integrations
+llama-index-core
+llama-index-embeddings-openai
+llama-index-llms-openai
+llama-index-readers-file
+llama-index-vector-stores-pinecone
+llama-index-retrievers-bm25
+llama-index-storage-docstore-mongodb
+
+# OpenAI SDK
+openai
+
+# Auth
+python-jose[cryptography]
+bcrypt
+
+# Config
+pydantic-settings
+pydantic[email]
+python-dotenv
+
+# Parsing
+pypdf
+python-docx
+pytesseract
+Pillow
+
+# Utilities
+httpx
+anyio
